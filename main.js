@@ -12,7 +12,7 @@ div_child.textContent = " ";
 container.appendChild(div_child);
 div_child.style.border = "thick solid black"; 
 div_child.style.padding = "1.72%";
-div_child.style.flex = "1 1 auto";          
+div_child.style.flex = "1 1 auto min-width: 0;";          
 div_child.style.aspectRatio = "1 / 1";      
 
 div_child.addEventListener("mouseover", () => { div_child.style.backgroundColor = "black";})
